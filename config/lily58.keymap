@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         lang_shift {
-            bindings = <&kp LCTRL &kp LSHIFT>;
+            bindings = <&kp LEFT_ALT &kp LSHIFT>;
             key-positions = <28 27 26>;
             timeout-ms = <50>;
             layers = <0>;
