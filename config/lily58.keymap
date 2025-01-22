@@ -13,7 +13,7 @@
         compatible = "zmk,combos";
 
         lang_shift {
-            bindings = <&none>;
+            bindings = <&kp LC(LSHFT)>;
             key-positions = <28 27 26>;
         };
     };
