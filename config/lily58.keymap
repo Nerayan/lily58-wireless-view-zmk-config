@@ -21,12 +21,17 @@
     };
 
     macros {
-        hd2_supply: hd2_supply {
+        hello_macro: hello_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>, <&trans>;
-
-            label = "HD2_SUPPLY";
+            bindings = <
+                &kp H &wait-ms 200
+                &kp E &wait-ms 200
+                &kp L &wait-ms 200
+                &kp L &wait-ms 200
+                &kp O
+            >;
+            label = "HELLO_MACRO";
         };
     };
 
