@@ -20,6 +20,16 @@
         };
     };
 
+    macros {
+        hd2_supply: hd2_supply {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>, <&macro_press>, <&trans>;
+
+            label = "HD2_SUPPLY";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
