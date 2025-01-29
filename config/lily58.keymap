@@ -15,7 +15,7 @@
         lang_shift {
             bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <28 27 26>;
-            timeout-ms = <50>;
+            timeout-ms = <100>;
             layers = <0>;
         };
     };
