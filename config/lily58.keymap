@@ -66,8 +66,6 @@
 &trans      &trans        &trans        &trans        &trans        &trans        &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans      &kp MINUS         &kp KP_PLUS      &trans        &trans      &kp PIPE
                                         &trans        &trans        &trans        &trans            &trans           &trans      &trans            &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -86,8 +84,6 @@
 &kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp KP_PLUS   &kp MINUS         &kp EQUAL     &trans         &kp BSLH           &kp RA(F4)
                                               &trans        &trans        &trans        &trans      &trans    &trans        &trans            &trans
             >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
