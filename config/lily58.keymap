@@ -102,7 +102,7 @@
 &kp TAB    &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
 &kp LCTRL  &trans  &trans  &trans  &trans    &hd2_supply  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans  &kp LALT  &trans       &kp SPACE    &trans  &trans  &tog 0  &trans
+                           &trans  &kp LALT  &trans       &kp SPACE    &trans  &trans  &to 0   &trans
             >;
         };
     };
