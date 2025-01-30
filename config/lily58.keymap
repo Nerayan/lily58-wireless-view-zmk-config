@@ -24,21 +24,21 @@
         HD2_supply: hd2_supply {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOWN_ARROW &trans &kp DOWN_ARROW &trans &kp UP_ARROW &trans &kp RIGHT>;
+            bindings = <&kp D &trans &kp D &trans &kp E &trans &kp F>;
             label = "HD2_SUPPLY";
         };
 
         HD2_reinforce: hd2_reinforce {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp UP_ARROW &trans &kp DOWN &trans &kp RIGHT &trans &kp LEFT &trans &kp UP_ARROW>;
+            bindings = <&kp E &trans &kp D &trans &kp F &trans &kp S &trans &kp E>;
             label = "HD2_REINFORCE";
         };
 
         HD2_gatling_centry: hd2_gatling_centry {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp DOWN_ARROW &trans &kp UP_ARROW &trans &kp RIGHT &trans &kp LEFT>;
+            bindings = <&kp D &trans &kp E &trans &kp F &trans &kp S>;
             label = "HD2_GATLING_CENTRY";
         };
     };
@@ -122,18 +122,6 @@
             >;
 
             label = "Game+";
-        };
-
-        extra_1 {
-            status = "reserved";
-        };
-
-        extra_2 {
-            status = "reserved";
-        };
-
-        extra_3 {
-            status = "reserved";
         };
     };
 };
