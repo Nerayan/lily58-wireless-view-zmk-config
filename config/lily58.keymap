@@ -87,6 +87,7 @@
         };
 
         game {
+            display-name = "Game";
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                       &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB    &kp Q   &kp W   &kp E   &kp R     &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
@@ -97,6 +98,7 @@
         };
 
         game_low {
+            display-name = "Game_low";
             bindings = <
 &kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                            &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB    &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
