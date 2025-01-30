@@ -21,18 +21,25 @@
     };
 
     macros {
-        hd2_supply: hd2_supply {
+        HD2_supply: hd2_supply {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp DOWN_ARROW &trans &kp DOWN_ARROW &trans &kp UP_ARROW &trans &kp RIGHT>;
             label = "HD2_SUPPLY";
         };
 
-        hd2_reinforce: hd2_reinforce {
+        HD2_reinforce: hd2_reinforce {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp UP_ARROW &trans &kp DOWN &trans &kp RIGHT &trans &kp LEFT &trans &kp UP_ARROW>;
             label = "HD2_REINFORCE";
+        };
+
+        HD2_gatling_centry: hd2_gatling_centry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOWN_ARROW &trans &kp UP_ARROW &trans &kp RIGHT &trans &kp LEFT>;
+            label = "HD2_GATLING_CENTRY";
         };
     };
 
@@ -107,11 +114,11 @@
 
         game+ {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &hd2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans       &trans    &trans  &trans  &to 0   &trans
+&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_reinforce  &trans  &trans  &HD2_gatling_centry  &HD2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &trans               &trans       &trans    &trans  &trans  &to 0   &trans
             >;
 
             label = "Game+";
