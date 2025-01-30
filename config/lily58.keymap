@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
 
 / {
     combos {
@@ -24,7 +25,7 @@
         HD2_supply: hd2_supply {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp D &trans &kp D &trans &kp E &trans &kp F>;
+            bindings = <&kt LCTRL &kp D &trans &kp D &trans &kp E &trans &kp F>;
             label = "HD2_SUPPLY";
         };
 
