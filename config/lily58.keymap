@@ -24,8 +24,15 @@
         hd2_supply: hd2_supply {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp H &trans &kp E &trans &kp L &trans &kp L &trans &kp O>;
+            bindings = <&kp DOWN_ARROW &trans &kp DOWN_ARROW &trans &kp UP_ARROW &trans &kp RIGHT>;
             label = "HD2_SUPPLY";
+        };
+
+        hd2_reinforce: hd2_reinforce {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "HD2_REINFORCE";
         };
     };
 
