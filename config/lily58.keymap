@@ -82,28 +82,32 @@
 &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp HOME      &kp RC(LEFT)      &kp UP_ARROW  &kp RC(RIGHT)  &kp END            &trans
 &kp LEFT_SHIFT    &trans        &trans        &trans        &trans        &trans                              &kp LC(LEFT)  &kp LEFT          &kp DOWN      &kp RIGHT      &kp LC(LS(RIGHT))  &trans
 &kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp EQUAL     &kp MINUS         &kp PLUS      &trans         &kp BSLH           &kp RA(F4)
-                                              &trans        &trans        &trans        &trans      &trans    &trans        &tog 3            &trans
+                                              &trans        &trans        &trans        &trans      &trans    &trans        &tog 0            &trans
             >;
         };
 
         game {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                       &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &kp Q   &kp W   &kp E   &kp R     &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp A   &kp S   &kp D   &kp F     &kp G                        &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp Z   &kp X   &kp C   &kp V     &kp B   &kp LBKT     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                           &none   &kp LALT  &mo 4   &kp SPACE    &trans  &mo 4   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &none   &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
+
+            label = "Game";
         };
 
-        game_low {
+        game+ {
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB    &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &trans  &trans  &trans  &trans    &hd2_supply  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                           &none   &kp LALT  &trans       &kp SPACE    &trans  &trans  &to 0   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &hd2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &mo 4        &trans    &trans  &mo 4   &to 0   &trans
             >;
+
+            label = "Game+";
         };
     };
 };
