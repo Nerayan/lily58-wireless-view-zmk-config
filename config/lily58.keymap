@@ -41,6 +41,13 @@
             bindings = <&kp D &trans &kp E &trans &kp F &trans &kp S>;
             label = "HD2_GATLING_CENTRY";
         };
+
+        HD2_stalwart: HD2_stalwart {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &trans &kp S &trans &kp D &trans &kp E &trans &kp E &trans &kp S>;
+            label = "HD2_STALWART";
+        };
     };
 
     keymap {
@@ -114,11 +121,11 @@
 
         game+ {
             bindings = <
-&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans  &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &HD2_reinforce  &trans  &trans  &HD2_gatling_centry  &HD2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &trans               &trans       &trans    &trans  &trans  &to 0   &trans
+&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_reinforce  &trans  &HD2_stalwart  &HD2_gatling_centry  &HD2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans         &trans               &trans       &trans    &trans  &trans  &to 0   &trans
             >;
 
             label = "Game+";
