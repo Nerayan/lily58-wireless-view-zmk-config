@@ -85,11 +85,11 @@
 
             display-name = "Raise";
             bindings = <
-&kp TILDE         &trans        &trans        &trans        &trans        &trans                              &kp C_PREV    &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_NEXT         &kp PRINTSCREEN
-&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp HOME      &kp RC(LEFT)      &kp UP_ARROW  &kp RC(RIGHT)  &kp END            &trans
-&kp LEFT_SHIFT    &trans        &trans        &trans        &trans        &trans                              &kp LC(LEFT)  &kp LEFT          &kp DOWN      &kp RIGHT      &kp LC(LS(RIGHT))  &trans
-&kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp EQUAL     &kp MINUS         &kp PLUS      &trans         &kp BSLH           &kp RA(F4)
-                                              &trans        &trans        &trans        &trans      &trans    &trans        &tog 3            &trans
+&kp TILDE         &trans        &trans        &trans        &trans        &trans                              &kp C_PREV        &kp C_PLAY_PAUSE  &kp C_VOL_DN  &kp C_VOL_UP   &kp C_NEXT         &kp PRINTSCREEN
+&kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp HOME          &kp RC(LEFT)      &kp UP_ARROW  &kp RC(RIGHT)  &kp END            &trans
+&kp LEFT_SHIFT    &trans        &trans        &trans        &trans        &trans                              &kp RS(RC(LEFT))  &kp LEFT          &kp DOWN      &kp RIGHT      &kp RS(RC(RIGHT))  &trans
+&kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp EQUAL         &kp MINUS         &kp PLUS      &trans         &kp BSLH           &kp RA(F4)
+                                              &trans        &trans        &trans        &trans      &trans    &trans            &tog 3            &trans
             >;
         };
 
