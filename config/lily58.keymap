@@ -82,7 +82,27 @@
 &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &trans        &kp RC(LEFT)      &kp UP_ARROW  &kp RC(RIGHT)  &trans             &trans
 &kp LEFT_SHIFT    &trans        &trans        &trans        &trans        &trans                              &kp LC(LEFT)  &kp LEFT          &kp DOWN      &kp RIGHT      &kp LC(LS(RIGHT))  &trans
 &kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp KP_PLUS   &kp MINUS         &kp EQUAL     &trans         &kp BSLH           &kp RA(F4)
-                                              &trans        &trans        &trans        &trans      &trans    &trans        &trans            &trans
+                                              &trans        &trans        &trans        &trans      &trans    &trans        &tog 3            &trans
+            >;
+        };
+
+        game {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                       &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &kp Q   &kp W   &kp E   &kp R     &kp T                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp A   &kp S   &kp D   &kp F     &kp G                        &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp Z   &kp X   &kp C   &kp V     &kp B   &kp LBKT     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &kp LALT  &trans  &kp SPACE    &trans  &trans  &trans  &trans
+            >;
+        };
+
+        game_low {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3  &kp N4    &kp N5                            &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB    &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &trans  &trans  &trans  &trans    &trans                            &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &trans  &trans  &trans  &trans    &hd2_supply  &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans  &kp LALT  &trans       &kp SPACE    &trans  &trans  &tog 0  &trans
             >;
         };
     };
