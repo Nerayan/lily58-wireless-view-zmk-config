@@ -136,11 +136,11 @@
 
         game+ {
             bindings = <
-&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &trans  &trans         &trans               &trans                         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &HD2_reinforce  &trans  &HD2_stalwart  &HD2_gatling_centry  &HD2_supply  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans         &trans               &trans       &trans    &trans  &trans  &to 0   &trans
+&trans  &trans               &trans      &trans  &trans          &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_gatling_centry  &HD2_500kg  &trans  &HD2_supply     &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans               &trans      &trans  &trans          &trans                           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_reinforce       &trans      &trans  &HD2_guard_dog  &HD2_stalwart  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans  &trans          &trans         &trans    &trans  &trans  &to 0   &trans
             >;
 
             label = "Game+";
