@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp S &trans &kp E &trans &kp F &trans &kp F &trans &kt LCTRL>;
             label = "HD2_GUARD_DOG";
-        }; 
+        };
 
         HD2_rocket_centry: HD2_rocket_centry {
             compatible = "zmk,behavior-macro";
@@ -150,11 +150,11 @@
 
         game+ {
             bindings = <
-&HD2_reinforce  &trans               &trans      &trans  &trans          &trans                                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &HD2_gatling_centry  &HD2_500kg  &trans  &HD2_supply     &trans                                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &HD2_rocket_centry   &trans      &trans  &trans          &trans                                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans               &trans      &trans  &HD2_guard_dog  &HD2_stalwart  &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &trans  &trans          &trans         &trans            &trans  &trans  &to 0   &trans
+&HD2_reinforce  &trans               &trans      &trans  &trans         &trans                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &HD2_gatling_centry  &HD2_500kg  &trans  &HD2_supply    &trans                                          &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &HD2_rocket_centry   &trans      &trans  &trans         &HD2_guard_dog_rover                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans               &trans      &trans  &HD2_stalwart  &HD2_guard_dog        &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &trans  &trans         &trans                &trans            &trans  &trans  &to 0   &trans
             >;
 
             label = "Game+";
