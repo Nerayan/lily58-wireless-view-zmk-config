@@ -49,6 +49,20 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp S &trans &kp D &trans &kp E &trans &kp E &trans &kp S &trans &kt LCTRL>;
             label = "HD2_STALWART";
         };
+
+        HD2_500kg: HD2_500kg {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp E &trans &kp F &trans &kp D &trans &kp D &trans &kp D &trans &kt LCTRL>;
+            label = "HD2_500KG";
+        };
+
+        HD2_guard_dog: HD2_guard_dog {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp S &trans &kp E &trans &kp F &trans &kp D &trans &kt LCTRL>;
+            label = "HD2_GUARD_DOG";
+        };
     };
 
     keymap {
