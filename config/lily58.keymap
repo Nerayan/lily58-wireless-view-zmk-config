@@ -77,6 +77,13 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp S &trans &kp E &trans &kp F &trans &kp F &trans &kt LCTRL>;
             label = "HD2_GUARD_DOG_ROVER";
         };
+
+        HD2_orbital_laser: HD2_orbital_laser {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp F &trans &kp D &trans &kp E &trans &kp F &trans &kp D &trans &kt LCTRL>;
+            label = "HD2_ORBITAL_LASER";
+        };
     };
 
     keymap {
@@ -150,11 +157,11 @@
 
         game+ {
             bindings = <
-&HD2_reinforce  &trans               &trans      &trans  &trans         &trans                                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &HD2_gatling_centry  &HD2_500kg  &trans  &HD2_supply    &trans                                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &HD2_rocket_centry   &trans      &trans  &trans         &HD2_guard_dog_rover                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans               &trans      &trans  &HD2_stalwart  &HD2_guard_dog        &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                 &trans  &trans         &trans                &trans            &trans  &trans  &to 0   &trans
+&trans  &trans               &trans              &trans  &trans                &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_gatling_centry  &HD2_orbital_laser  &trans  &HD2_supply           &HD2_orbital_laser                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_rocket_centry   &trans              &trans  &trans                &HD2_500kg                                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &HD2_stalwart        &trans              &trans  &HD2_guard_dog_rover  &HD2_guard_dog      &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                 &trans  &trans                &trans              &trans            &trans  &trans  &to 0   &trans
             >;
 
             label = "Game+";
