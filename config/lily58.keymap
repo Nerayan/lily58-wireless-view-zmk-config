@@ -145,11 +145,11 @@
 
         game {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &none   &trans  &mo 4   &trans    &trans  &mo 4   &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &kp LEFT_ALT  &mo 4   &mo 4   &trans    &trans  &mo 4   &trans  &trans
             >;
 
             label = "Game";
