@@ -160,7 +160,7 @@
 &trans  &trans               &trans              &trans  &trans                &trans                                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &HD2_gatling_centry  &HD2_orbital_laser  &trans  &HD2_supply           &HD2_orbital_laser                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &HD2_rocket_centry   &trans              &trans  &trans                &HD2_500kg                                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &HD2_stalwart        &trans              &trans  &HD2_guard_dog_rover  &HD2_guard_dog      &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans               &HD2_stalwart       &trans  &HD2_guard_dog_rover  &HD2_guard_dog      &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                  &trans  &trans                &trans              &trans            &trans  &trans  &to 0   &trans
             >;
 
