@@ -98,6 +98,13 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp F &trans &kp E &trans &kp S &trans &kp E &trans &kt LCTRL>;
             label = "HD2_AUTOCANNON_CENTRY";
         };
+
+        HD2_orbital_380kg: HD2_orbital_380kg {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp F &trans &kp D &trans &kp E &trans &kp E &trans &kp S &trans &kp D &trans &kp D &trans &kt LCTRL>;
+            label = "HD2_ORBITAL_380KG";
+        };
     };
 
     keymap {
