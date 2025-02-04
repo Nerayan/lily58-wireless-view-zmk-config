@@ -201,7 +201,7 @@
             bindings = <
 &trans                    &HD2_gatling_centry  &HD2_Autocannon_centry  &HD2_rocket_centry  &HD2_mortar_centry  &HD2_500kg                                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans                    &trans               &trans                  &trans              &HD2_supply         &HD2_orbital_380kg                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans               &trans                  &trans              &trans              &HD2_orbital_380kg                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans                    &trans               &trans                  &trans              &trans              &HD2_Eagle_napalm                             &trans  &trans  &trans  &trans  &trans  &trans
 &HD2_Anti_material_rifle  &HD2_stalwart        &HD2_guard_dog_rover    &HD2_guard_dog      &HD2_Jump_pack      &HD2_orbital_laser  &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                                                        &trans              &trans              &trans              &trans            &trans  &trans  &to 0   &trans
             >;
