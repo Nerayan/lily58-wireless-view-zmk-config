@@ -119,6 +119,13 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp E &trans &kp D &trans &kp E &trans &kt LCTRL>;
             label = "HD2_JUMP_PACK";
         };
+
+        HD2_Eagle_napalm: HD2_Eagle_napalm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp E &trans &kp F &trans &kp D &trans &kp E &trans &kt LCTRL>;
+            label = "HD2_EAGLE_NAPALM";
+        };
     };
 
     keymap {
