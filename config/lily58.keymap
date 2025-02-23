@@ -126,6 +126,13 @@
             bindings = <&kt LCTRL &trans &kp E &trans &kp F &trans &kp D &trans &kp E &trans &kt LCTRL>;
             label = "HD2_EAGLE_NAPALM";
         };
+
+        HD2_quasar: HD2_quasar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp D &trans &kp D &trans &kp E &trans &kp S &trans &kp F &trans &kt LCTRL>;
+            label = "HD2_QUASAR";
+        };
     };
 
     keymap {
