@@ -133,6 +133,13 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp D &trans &kp E &trans &kp S &trans &kp F &trans &kt LCTRL>;
             label = "HD2_QUASAR";
         };
+
+        HD2_Orbital_napalm: HD2_Orbital_napalm {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp F &trans &kp F &trans &kp D &trans &kp S &trans &kp F &trans &kp E &trans &kt LCTRL>;
+            label = "HD2_ORBITAL_NAPALM";
+        };
     };
 
     keymap {
