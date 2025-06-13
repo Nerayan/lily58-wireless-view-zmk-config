@@ -208,7 +208,7 @@
 &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp HOME          &kp RC(LEFT)      &kp UP_ARROW  &kp RC(RIGHT)  &kp END            &trans
 &kp LEFT_SHIFT    &trans        &trans        &trans        &trans        &trans                              &kp RS(RC(LEFT))  &kp LEFT          &kp DOWN      &kp RIGHT      &kp RS(RC(RIGHT))  &trans
 &kp LEFT_CONTROL  &trans        &trans        &trans        &trans        &trans        &kp LPAR    &kp RPAR  &kp EQUAL         &kp MINUS         &kp PLUS      &trans         &kp BSLH           &kp RA(F4)
-                                              &trans        &trans        &trans        &trans      &trans    &trans            &tog 3            &trans
+                                              &trans        &trans        &trans        &trans      &trans    &trans            &trans            &to 3
             >;
         };
 
@@ -226,11 +226,11 @@
 
         Helldivers2+ {
             bindings = <
-&trans                    &HD2_gatling_centry  &HD2_Autocannon_centry  &HD2_rocket_centry  &HD2_mortar_centry  &HD2_Orbital_napalm                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans               &trans                  &trans              &HD2_supply         &HD2_orbital_380kg                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans                    &trans               &trans                  &trans              &trans              &HD2_500kg                                     &trans  &trans  &trans  &trans  &trans  &trans
-&HD2_Anti_material_rifle  &HD2_quasar          &HD2_guard_dog_rover    &HD2_guard_dog      &HD2_Jump_pack      &HD2_orbital_laser   &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                                       &trans              &trans              &trans               &trans            &trans  &trans  &to 0   &trans
+&HD2_Machine_gun_sentry  &HD2_gatling_centry  &HD2_Autocannon_centry  &HD2_rocket_centry     &HD2_mortar_centry  &HD2_Orbital_napalm                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &HD2_supply          &trans                  &trans                 &trans              &HD2_orbital_380kg                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &trans               &trans                  &trans                 &trans              &HD2_500kg                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &HD2_quasar          &HD2_guard_dog_rover    &HD2_guard_dog         &HD2_Jump_pack      &HD2_orbital_laser   &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                                      &HD2_Granade_launcher  &HD2_stalwart       &trans               &trans            &trans  &trans  &trans  &to 0
             >;
 
             label = "HD2+";
