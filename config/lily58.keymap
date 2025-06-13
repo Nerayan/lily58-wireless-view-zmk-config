@@ -139,6 +139,20 @@
             bindings = <&kt LCTRL &trans &kp F &trans &kp F &trans &kp D &trans &kp S &trans &kp F &trans &kp E &trans &kt LCTRL>;
             label = "HD2_ORBITAL_NAPALM";
         };
+
+        HD2_Machine_gun_sentry: HD2_Machine_gun_sentry {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp F &trans &kp F &trans &kp E &trans &kt LCTRL>;
+            label = "HD2_MACHINE_GUN_SENTRY";
+        };
+
+        HD2_Granade_launcher: HD2_Granade_launcher {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp D &trans &kp S &trans &kp E &trans &kp S &trans &kp D &trans &kt LCTRL>;
+            label = "HD2_GRANADE_LAUNCHER";
+        };
     };
 
     keymap {
