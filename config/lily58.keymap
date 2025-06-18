@@ -153,6 +153,13 @@
             bindings = <&kt LCTRL &trans &kp D &trans &kp S &trans &kp E &trans &kp S &trans &kp D &trans &kt LCTRL>;
             label = "HD2_GRANADE_LAUNCHER";
         };
+
+        HD2_Autocannon: HD2_Autocannon {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &trans &kp D &trans &kp S &trans &kp D &trans &kp E &trans &kp E &trans &kp F &trans &kt LCTRL>;
+            label = "HD2_AUTOCANNON";
+        };
     };
 
     keymap {
