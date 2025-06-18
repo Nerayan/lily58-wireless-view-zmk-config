@@ -240,11 +240,11 @@
 
         Helldivers2+ {
             bindings = <
-&HD2_Machine_gun_sentry  &HD2_gatling_centry  &HD2_Autocannon_centry  &HD2_rocket_centry     &HD2_mortar_centry  &HD2_Orbital_napalm                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans                   &HD2_supply          &trans                  &trans                 &trans              &HD2_orbital_380kg                             &trans  &trans  &trans  &trans  &trans  &trans
-&trans                   &trans               &trans                  &trans                 &trans              &HD2_500kg                                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans                   &HD2_quasar          &HD2_guard_dog_rover    &HD2_guard_dog         &HD2_Jump_pack      &HD2_orbital_laser   &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                                                      &HD2_Granade_launcher  &HD2_Autocannon     &trans               &trans            &trans  &trans  &trans  &to 0
+&HD2_Machine_gun_sentry  &HD2_gatling_centry    &HD2_Autocannon_centry  &HD2_rocket_centry     &HD2_mortar_centry  &HD2_Orbital_napalm                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &HD2_supply            &trans                  &trans                 &trans              &HD2_orbital_380kg                             &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &HD2_quasar            &trans                  &trans                 &trans              &HD2_500kg                                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans                   &HD2_Guard_dog_breath  &HD2_guard_dog_rover    &HD2_guard_dog         &HD2_Jump_pack      &HD2_orbital_laser   &HD2_reinforce    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                                                        &HD2_Granade_launcher  &HD2_Autocannon     &trans               &trans            &trans  &trans  &trans  &to 0
             >;
 
             label = "HD2+";
