@@ -268,7 +268,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &to 7   &trans  &to 7   &trans    &trans  &to 7   &trans  &trans
+                        &mo 7   &trans  &mo 7   &trans    &trans  &to 7   &trans  &trans
             >;
 
             label = "Dune";
