@@ -226,13 +226,25 @@
             >;
         };
 
+        Game {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &to 4   &to 6   &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &to 0
+            >;
+
+            label = "Game";
+        };
+
         Helldivers2 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans        &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &mo 4   &kp LEFT_ALT  &mo 4   &trans    &trans  &mo 4   &trans  &trans
+                        &mo 5   &kp LEFT_ALT  &mo 5   &trans    &trans  &mo 5   &trans  &trans
             >;
 
             label = "HD2";
@@ -248,6 +260,30 @@
             >;
 
             label = "HD2+";
+        };
+
+        Dune {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &to 7   &trans  &to 7   &trans    &trans  &to 7   &trans  &trans
+            >;
+
+            label = "Dune";
+        };
+
+        Dune+ {
+            bindings = <
+&trans  &kp NUMBER_0  &kp N9  &kp NUMBER_8  &kp NUMBER_7  &kp NUMBER_6                               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp P         &kp O   &kp I         &kp U         &kp Y                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &kp L   &kp K         &kp J         &kp H                                      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans  &trans        &kp M         &kp N         &kp RIGHT_BRACKET    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &trans        &trans        &trans        &kp ENTER            &trans  &trans  &trans  &to 0
+            >;
+
+            label = "Dune+";
         };
     };
 };
