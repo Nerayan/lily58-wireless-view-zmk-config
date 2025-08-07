@@ -192,7 +192,7 @@
         HD2_Railcannon: HD2_Railcannon {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &trans &kp D &trans &kp E &trans &kp D &trans &kp D &trans &kp F &kt LCTRL>;
+            bindings = <&kt LCTRL &trans &kp F &trans &kp E &trans &kp D &trans &kp D &trans &kp F &kt LCTRL>;
             label = "HD2_RAILCANNON";
         };
     };
