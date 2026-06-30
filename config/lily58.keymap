@@ -297,7 +297,7 @@
             label = "HD2+";
         };
 
-        Dune {
+        R_S {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
@@ -306,7 +306,7 @@
                         &mo 8   &trans  &mo 8   &trans    &trans  &mo 8   &trans  &trans
             >;
 
-            label = "Dune";
+            label = "R_S";
         };
 
         WASD_remap {
